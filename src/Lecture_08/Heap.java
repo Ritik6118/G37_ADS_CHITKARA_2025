@@ -64,4 +64,13 @@ public class Heap<T extends Comparable>  {
 		}
 		
 	}
+	public int size() {
+		return  li.size();
+	}
+	public T peek() {
+		return li.get(0);
+	}
+	public boolean isEmpty() {
+		return li.size()==0;
+	}
 }
